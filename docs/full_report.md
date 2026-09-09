@@ -21,7 +21,7 @@ The [Iowa liquor sales dataset](https://data.iowa.gov/catalog/dataset/1051) cont
 
 A complete log of scripts and a description of methods are available in:
 
-[`docs/scripts_methods.md`](../docs/scripts_methods.md)
+[`docs/script_methodologies.md`](../docs/script_methodologies.md)
 
 This includes the scripts and methodology used to clean transaction data, detect temporary price discounts, and build panels for analysis.
 
