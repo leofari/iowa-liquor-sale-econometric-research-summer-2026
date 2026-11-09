@@ -1,29 +1,34 @@
-# Development handoff — Iowa liquor econometric research
+# Current development handoff
 
-Last reviewed: 2026-11-09, Middletown MacBook.
+Reviewed: 2026-11-09 — Middletown MacBook.
 
-## Starting point
+## Current state
 
-GitHub main for baseline; local research extensions as alternate
+The approved source/context backup is on https://github.com/leofari/iowa-liquor-sale-econometric-research-summer-2026 (public). Start from `main`; fetch all remote branches before comparing with another Mac. Initial verified main before this documentation refresh: `249544ffaac638a73884c8d1079ffb7f600d97e8`. Current commit: inspect `git rev-parse HEAD`.
 
-Status: GitHub baseline is one descendant commit ahead; local extra work remains. The backup plan was approved on 2026-11-09. This file describes the staged version; Git refs and the external verification report establish publication status.
+Study wholesale Iowa liquor discounts, sales panels, event studies and research presentation outputs.
 
-## What is known
+## Completed in this backup
 
-GitHub compare confirms 60dc937e24837106310f9f4da4e290998878112d descends from local 884e4e21be9d8f0847768fb8260e17424d513761 by one commit. Local status reports untracked script_methodologies/simplifying_alcohol_categories.html, currently cloud-only. October plotting/panel scripts and poster-generation utilities are additional local work; later session dates do not prove these replace the published analysis.
+- Preserved existing history and meaningful alternate versions without force-pushing or deleting branches.
+- Added project context, source provenance and an additive AGENTS.md handoff-maintenance instruction.
+- Kept Codex transcripts, credentials and private runtime data out of the upload.
+- Verified source manifests and remote commit identities; application behavior was not newly regression-tested.
 
-## Verification
+## Alternate versions
 
-File hashes and selected version differences inspected. Application tests: not run during backup discovery. Remote histories must be fetched and audited again immediately before any push.
+- `archive/middletown-2026-11-09-research-extensions` @ `bae15b9552fb23f6cfe6dcb1d781c37770dbbca7`
 
-## Next action
+## Next concrete step
 
 Compare the October R and poster scripts against DC work; verify local availability and provenance of needed data before including it.
 
-## Preservation
+## Constraints
 
-Reuse existing repository, retaining main. Import non-sensitive new scripts on archive/middletown-2026-11-09, without mixing in quote-game tooling. Hydrate and inspect the unique HTML before declaring the backup complete.
+Exclude .Rhistory/.RData, caches, private notes and unrelated quote spreadsheets. Do not silently omit the cloud-only untracked HTML. Existing repository is PUBLIC; review all added documents and data.
 
-## After the next development session
+Original source working trees were not edited by the backup. Do not assume a working deployment or reproduce a private-data environment from the source snapshot alone.
 
-Replace this current-state note with the actual branch/commit, concise changes, checks run and results, remaining defects, uncommitted work, decisions and next steps. Record limitations honestly. Update PROJECT_CONTEXT.md and existing project progress docs where relevant. Do not paste chat logs, credentials, job records or personal source documents.
+## Update after development
+
+Replace this current-state note with actual branch/commit, changes, checks and results, known issues, uncommitted work, decisions and next steps. Update PROJECT_CONTEXT.md when setup or architecture changes. State what remains unverified. Do not commit chat logs, credentials or unrelated personal data.

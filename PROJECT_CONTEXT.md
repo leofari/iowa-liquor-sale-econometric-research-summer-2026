@@ -1,43 +1,47 @@
 # Iowa liquor econometric research
 
-Prepared 2026-11-09 from Middletown source inspection. Prepared from the approved Middletown backup plan; consult Git refs and the local verification report for publication status.
+Last reviewed: 2026-11-09, Middletown MacBook.
 
 ## Purpose
 
 Study wholesale Iowa liquor discounts, sales panels, event studies and research presentation outputs.
 
-## Architecture and entry points
+## Architecture
 
 SQL panel/discount scripts, research methodologies/figures and local R/Python/JavaScript utilities for plots, regression briefs and posters.
 
-## Repository and version identity
+## Canonical repository and backup state
 
-Canonical destination: https://github.com/leofari/iowa-liquor-sale-econometric-research-summer-2026 (public).
+https://github.com/leofari/iowa-liquor-sale-econometric-research-summer-2026 — **public**. Reuse this repository; do not create another copy on the second Mac. Primary branch: `main`.
 
-Preferred source/version: GitHub main for baseline; local research extensions as alternate.
+The approved Middletown source/context backup was pushed and verified. Its initial verified primary tip before this documentation refresh was `249544ffaac638a73884c8d1079ffb7f600d97e8`. Use `git rev-parse HEAD` for the current tip. Existing Git history and remote branches were preserved.
 
-GitHub baseline is one descendant commit ahead; local extra work remains.
+## Version evidence
 
 GitHub compare confirms 60dc937e24837106310f9f4da4e290998878112d descends from local 884e4e21be9d8f0847768fb8260e17424d513761 by one commit. Local status reports untracked script_methodologies/simplifying_alcohol_categories.html, currently cloud-only. October plotting/panel scripts and poster-generation utilities are additional local work; later session dates do not prove these replace the published analysis.
 
-## Setup and validation
+## Preserved alternate versions
 
-Read the selected version's README, dependency lockfiles and existing AI instructions first. Restore the declared environment; do not infer commands or credentials from another project. Consult package.json scripts, pyproject.toml or existing test documentation for exact commands. No application tests were run in this backup discovery; passing file/archive integrity checks does not establish that the application works.
+- `archive/middletown-2026-11-09-research-extensions` @ `bae15b9552fb23f6cfe6dcb1d781c37770dbbca7`
 
-Machine-specific paths must be documented as configurable inputs. Never run deployment, mail sending, application submission, vault modification, or paid API calls as a backup check.
+Archive branches preserve historical/alternate states and are not automatically merged. Non-Git snapshot roots do not imply shared chronological Git ancestry. Before developing on another Mac, fetch all branches and inspect the archive provenance and manifests.
 
-## Current constraints and next work
+## Setup and checks
+
+Read README.md, existing AI instructions, dependency declarations and lockfiles before installing or running. Exact package scripts inspected during discovery appear below where available. Machine-specific paths in the original scripts are known portability constraints, not a guarantee that those paths exist on another Mac. Do not replace private data/credentials with guesses.
+
+Backup checks verified Git ancestry, remote branch hashes, captured source-file bytes, source exclusions, and secret-scan findings. Application regression/integration tests were not run during backup. The sanitized quote-builder JavaScript/Python passed syntax checks. No application submission, mail sending, deployment or vault modification was performed as a backup test.
+
+## Next development step
 
 Compare the October R and poster scripts against DC work; verify local availability and provenance of needed data before including it.
 
-Reuse existing repository, retaining main. Import non-sensitive new scripts on archive/middletown-2026-11-09, without mixing in quote-game tooling. Hydrate and inspect the unique HTML before declaring the backup complete.
-
-## Private state and excluded material
+## Private state and deliberate exclusions
 
 Exclude .Rhistory/.RData, caches, private notes and unrelated quote spreadsheets. Do not silently omit the cloud-only untracked HTML. Existing repository is PUBLIC; review all added documents and data.
 
-Conversation transcripts are stored only in the separate local history archive. Do not add them to this repository.
+Complete Codex transcripts stay in the separate local history ZIP and must never enter this repository. Original private inputs remain on the source Mac. The eight unconfirmed coursework/tutorial candidates are outside this approved backup set.
 
-## Maintaining this context
+## Handoff maintenance
 
-After meaningful development, update this file when architecture, setup, dependencies, behavior, decisions or constraints change. Update HANDOFF.md at the end of every development session, including interrupted work. Keep facts concise and distinguish verified behavior from plans and assumptions. See AGENTS.md.
+At the start of development, read PROJECT_CONTEXT.md, HANDOFF.md and AGENTS.md plus applicable nested instructions. After each meaningful session, update HANDOFF.md with actual branch/commit, changes, checks/results, outstanding issues, uncommitted work and next steps. Update this context when architecture, setup, dependencies, data contracts or decisions change. Keep existing README/CLAUDE.md/progress documents consistent. Do not paste transcripts or credentials.
