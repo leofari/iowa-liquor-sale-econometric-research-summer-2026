@@ -1,0 +1,32 @@
+{
+  "device": "Middletown MacBook",
+  "captured_date": "2026-11-09",
+  "repository": "leofari/iowa-liquor-sale-econometric-research-summer-2026",
+  "primary_source": "Existing remote main baseline `60dc937e24837106310f9f4da4e290998878112d`. Primary application source was retained; unique local versions are preserved on archive branches.",
+  "versions": [
+    {
+      "label": "research-extensions",
+      "source": "Dated October research utility sources",
+      "fingerprint": "6a45a728745561220671379360df22fda1640a8671c36e5870e5b0b23cffb687",
+      "covered_by": null,
+      "files": {
+        "research-utilities/build_regression_brief.py": "fbb790594b2b35a0175de8c4ee9d1055bbcbcb9fa962521879b7aa63055b03ad",
+        "research-utilities/poster_work/build_visual_story_requests.mjs": "e6a42dbf271744d6f06a2eb117bf519112621e1d038162f452ecacdb4eb819e6",
+        "research-utilities/poster_work/build_simplified_poster_requests.mjs": "69ec167846bdbb941f26dbdacf2ac07639b456df0a45aacf153d9fe57fda36bb",
+        "research-utilities/poster_work/extract_memo.py": "df9a312bb166c1b78b66fdf4c26e96b3ffda766d794697b5ccb1eab02d591a1b",
+        "research-utilities/poster_work/build_poster_requests.mjs": "50c1cc0f0406d93666158530ef265e4f5797d3c7fcc3da13cbdde305fae16d00",
+        "discount-plots/make_discount_plots.R": "9a4db7a4fca48adad07d74fc7ca3316741db3e9a1bb36608cb3402bcfedca4af",
+        "panel-table/panel_excerpt.R": "cffc2c4e628371a9b11dc4fa85573de5f9fca49343f46dad333336a2e332540c",
+        "panel-table/panel_table.qmd": "82c9de142eb0ce89dc0db004ce187569c742922753e9909d3e81d768b01ceb4f",
+        "panel-table/panel_excerpt.css": "6db94c1d46052d383bb6ab0faadea301b5c8ebbebb44585f8cfbe39695f1ad5e",
+        "panel-table/panel_excerpt.qmd": "e17c92632b68c8dd0a9fcfe9d52bee053b2e3afea7fb5ae93b12a266f7dfcc0b",
+        "panel-table/panel_table_code/panel_excerpt.R": "cffc2c4e628371a9b11dc4fa85573de5f9fca49343f46dad333336a2e332540c",
+        "panel-table/panel_table_code/panel_excerpt.css": "6db94c1d46052d383bb6ab0faadea301b5c8ebbebb44585f8cfbe39695f1ad5e",
+        "panel-table/panel_table_code/panel_excerpt.qmd": "e17c92632b68c8dd0a9fcfe9d52bee053b2e3afea7fb5ae93b12a266f7dfcc0b",
+        "script_methodologies/simplifying_alcohol_categories.html": "892d4e5351079368d08ad4bcdb32bf104348491ed66ccc0cb930438d51207bf2"
+      },
+      "equivalent_sources": []
+    }
+  ],
+  "security": "Credentials, transcripts and private runtime data excluded. Public identity keys and license checksums are not secrets. See local security review for scan evidence."
+}
